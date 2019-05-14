@@ -21,9 +21,48 @@ footer{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(134, 210, 233);
 }
 footer address{
   color: white;
   letter-spacing: 5px;
+}
+
+/***** BODY *****/
+
+body {
+  background-color: rgb(134, 210, 233);
+}
+
+h1 {
+  position: relative;/*相対位置*/
+  margin-left: 1.2em;/*左スペース*/
+  margin-right: 1.2em;/*右スペース*/
+  line-height: 1.4;/*行高*/
+  color: rgb(87, 110, 181);/*文字色*/
+
+  border-bottom: solid 3px #cce4ff;
+}
+h1:before {
+  content: '';
+  background-image: url(../img/seed.png);/*背景画像*/
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+}
+h1:after {
+  position: absolute;
+  content: '';
+  display: block;
+  border-bottom: solid 3px #5472cd;
+  bottom: -3px;
+  width: 20%;
+}
+
+h2 {
+  position: relative;/*相対位置*/
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/
+  color: rgb(87, 110, 181);/*文字色*/
 }
