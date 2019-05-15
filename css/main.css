@@ -62,7 +62,11 @@ h1:after {
 
 h2 {
   position: relative;/*相対位置*/
-  padding-left: 1.2em;/*アイコン分のスペース*/
+  padding-left: 1.2em;
   line-height: 1.4;/*行高*/
   color: rgb(87, 110, 181);/*文字色*/
+}
+
+.msg {
+  padding-left: 1.2em;
 }
